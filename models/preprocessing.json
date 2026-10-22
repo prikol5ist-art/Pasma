@@ -1,0 +1,26 @@
+{
+  "input_name": "image",
+  "input_size": [
+    320,
+    320
+  ],
+  "layout": "NCHW",
+  "color": "RGB",
+  "range": [
+    0.0,
+    1.0
+  ],
+  "resize": "letterbox",
+  "pad_color": [
+    128,
+    128,
+    128
+  ],
+  "exif_transpose": true,
+  "normalization": "in-graph (ImageNet mean/std)",
+  "outputs": {
+    "prob_coarse": "P(type) aggregated by hierarchy",
+    "prob_type": "calibrated softmax",
+    "prob_material": "independent sigmoids"
+  }
+}

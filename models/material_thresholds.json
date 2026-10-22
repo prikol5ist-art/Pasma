@@ -1,0 +1,646 @@
+{
+  "taxonomy": "visual-material-v1",
+  "description": "F1-optimised per-class decision thresholds calibrated on bench_dev",
+  "thresholds": {
+    "r4_edgenext_320": {
+      "cotton": {
+        "threshold": 0.07,
+        "calib_f1": 0.9007,
+        "support": 190,
+        "fitted": true
+      },
+      "linen": {
+        "threshold": 0.11,
+        "calib_f1": 0.5147,
+        "support": 51,
+        "fitted": true
+      },
+      "wool": {
+        "threshold": 0.06,
+        "calib_f1": 0.7143,
+        "support": 90,
+        "fitted": true
+      },
+      "cashmere": {
+        "threshold": 0.07,
+        "calib_f1": 0.7229,
+        "support": 39,
+        "fitted": true
+      },
+      "silk": {
+        "threshold": 0.05,
+        "calib_f1": 0.6383,
+        "support": 64,
+        "fitted": true
+      },
+      "denim": {
+        "threshold": 0.08,
+        "calib_f1": 0.6441,
+        "support": 38,
+        "fitted": true
+      },
+      "corduroy": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "tweed": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "polyester": {
+        "threshold": 0.07,
+        "calib_f1": 0.8123,
+        "support": 151,
+        "fitted": true
+      },
+      "nylon": {
+        "threshold": 0.05,
+        "calib_f1": 0.6364,
+        "support": 24,
+        "fitted": true
+      },
+      "spandex_elastane": {
+        "threshold": 0.32,
+        "calib_f1": 0.5,
+        "support": 26,
+        "fitted": true
+      },
+      "acrylic": {
+        "threshold": 0.19,
+        "calib_f1": 0.6154,
+        "support": 26,
+        "fitted": true
+      },
+      "rayon_viscose": {
+        "threshold": 0.08,
+        "calib_f1": 0.5517,
+        "support": 38,
+        "fitted": true
+      },
+      "fleece": {
+        "threshold": 0.18,
+        "calib_f1": 0.9091,
+        "support": 12,
+        "fitted": true
+      },
+      "technical_synthetic": {
+        "threshold": 0.41,
+        "calib_f1": 0.7077,
+        "support": 36,
+        "fitted": true
+      },
+      "leather_smooth": {
+        "threshold": 0.18,
+        "calib_f1": 0.7191,
+        "support": 46,
+        "fitted": true
+      },
+      "leather_suede": {
+        "threshold": 0.22,
+        "calib_f1": 0.5,
+        "support": 22,
+        "fitted": true
+      },
+      "leather_patent": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "rubber": {
+        "threshold": 0.06,
+        "calib_f1": 0.9863,
+        "support": 37,
+        "fitted": true
+      },
+      "metal_hardware": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "blend_unspecified": {
+        "threshold": 0.12,
+        "calib_f1": 0.3014,
+        "support": 25,
+        "fitted": true
+      }
+    },
+    "r3_edgenext_s": {
+      "cotton": {
+        "threshold": 0.07,
+        "calib_f1": 0.8981,
+        "support": 190,
+        "fitted": true
+      },
+      "linen": {
+        "threshold": 0.11,
+        "calib_f1": 0.4604,
+        "support": 51,
+        "fitted": true
+      },
+      "wool": {
+        "threshold": 0.05,
+        "calib_f1": 0.6704,
+        "support": 90,
+        "fitted": true
+      },
+      "cashmere": {
+        "threshold": 0.1,
+        "calib_f1": 0.6579,
+        "support": 39,
+        "fitted": true
+      },
+      "silk": {
+        "threshold": 0.05,
+        "calib_f1": 0.6316,
+        "support": 64,
+        "fitted": true
+      },
+      "denim": {
+        "threshold": 0.06,
+        "calib_f1": 0.6333,
+        "support": 38,
+        "fitted": true
+      },
+      "corduroy": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "tweed": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "polyester": {
+        "threshold": 0.05,
+        "calib_f1": 0.8121,
+        "support": 151,
+        "fitted": true
+      },
+      "nylon": {
+        "threshold": 0.05,
+        "calib_f1": 0.5882,
+        "support": 24,
+        "fitted": true
+      },
+      "spandex_elastane": {
+        "threshold": 0.41,
+        "calib_f1": 0.5366,
+        "support": 26,
+        "fitted": true
+      },
+      "acrylic": {
+        "threshold": 0.08,
+        "calib_f1": 0.6,
+        "support": 26,
+        "fitted": true
+      },
+      "rayon_viscose": {
+        "threshold": 0.07,
+        "calib_f1": 0.6129,
+        "support": 38,
+        "fitted": true
+      },
+      "fleece": {
+        "threshold": 0.14,
+        "calib_f1": 0.8696,
+        "support": 12,
+        "fitted": true
+      },
+      "technical_synthetic": {
+        "threshold": 0.32,
+        "calib_f1": 0.6866,
+        "support": 36,
+        "fitted": true
+      },
+      "leather_smooth": {
+        "threshold": 0.19,
+        "calib_f1": 0.7191,
+        "support": 46,
+        "fitted": true
+      },
+      "leather_suede": {
+        "threshold": 0.25,
+        "calib_f1": 0.625,
+        "support": 22,
+        "fitted": true
+      },
+      "leather_patent": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "rubber": {
+        "threshold": 0.07,
+        "calib_f1": 0.9863,
+        "support": 37,
+        "fitted": true
+      },
+      "metal_hardware": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "blend_unspecified": {
+        "threshold": 0.13,
+        "calib_f1": 0.2812,
+        "support": 25,
+        "fitted": true
+      }
+    },
+    "r4_edgenext_e60": {
+      "cotton": {
+        "threshold": 0.07,
+        "calib_f1": 0.9029,
+        "support": 190,
+        "fitted": true
+      },
+      "linen": {
+        "threshold": 0.11,
+        "calib_f1": 0.493,
+        "support": 51,
+        "fitted": true
+      },
+      "wool": {
+        "threshold": 0.05,
+        "calib_f1": 0.6882,
+        "support": 90,
+        "fitted": true
+      },
+      "cashmere": {
+        "threshold": 0.06,
+        "calib_f1": 0.6667,
+        "support": 39,
+        "fitted": true
+      },
+      "silk": {
+        "threshold": 0.05,
+        "calib_f1": 0.6237,
+        "support": 64,
+        "fitted": true
+      },
+      "denim": {
+        "threshold": 0.09,
+        "calib_f1": 0.6,
+        "support": 38,
+        "fitted": true
+      },
+      "corduroy": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "tweed": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "polyester": {
+        "threshold": 0.09,
+        "calib_f1": 0.8261,
+        "support": 151,
+        "fitted": true
+      },
+      "nylon": {
+        "threshold": 0.09,
+        "calib_f1": 0.6,
+        "support": 24,
+        "fitted": true
+      },
+      "spandex_elastane": {
+        "threshold": 0.43,
+        "calib_f1": 0.5128,
+        "support": 26,
+        "fitted": true
+      },
+      "acrylic": {
+        "threshold": 0.07,
+        "calib_f1": 0.5854,
+        "support": 26,
+        "fitted": true
+      },
+      "rayon_viscose": {
+        "threshold": 0.05,
+        "calib_f1": 0.65,
+        "support": 38,
+        "fitted": true
+      },
+      "fleece": {
+        "threshold": 0.16,
+        "calib_f1": 0.8696,
+        "support": 12,
+        "fitted": true
+      },
+      "technical_synthetic": {
+        "threshold": 0.36,
+        "calib_f1": 0.6866,
+        "support": 36,
+        "fitted": true
+      },
+      "leather_smooth": {
+        "threshold": 0.05,
+        "calib_f1": 0.7,
+        "support": 46,
+        "fitted": true
+      },
+      "leather_suede": {
+        "threshold": 0.27,
+        "calib_f1": 0.5625,
+        "support": 22,
+        "fitted": true
+      },
+      "leather_patent": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "rubber": {
+        "threshold": 0.06,
+        "calib_f1": 1.0,
+        "support": 37,
+        "fitted": true
+      },
+      "metal_hardware": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "blend_unspecified": {
+        "threshold": 0.16,
+        "calib_f1": 0.3333,
+        "support": 25,
+        "fitted": true
+      }
+    },
+    "r3_convnext_pico": {
+      "cotton": {
+        "threshold": 0.06,
+        "calib_f1": 0.9175,
+        "support": 190,
+        "fitted": true
+      },
+      "linen": {
+        "threshold": 0.07,
+        "calib_f1": 0.4539,
+        "support": 51,
+        "fitted": true
+      },
+      "wool": {
+        "threshold": 0.05,
+        "calib_f1": 0.7355,
+        "support": 90,
+        "fitted": true
+      },
+      "cashmere": {
+        "threshold": 0.05,
+        "calib_f1": 0.5429,
+        "support": 39,
+        "fitted": true
+      },
+      "silk": {
+        "threshold": 0.05,
+        "calib_f1": 0.4198,
+        "support": 64,
+        "fitted": true
+      },
+      "denim": {
+        "threshold": 0.05,
+        "calib_f1": 0.7385,
+        "support": 38,
+        "fitted": true
+      },
+      "corduroy": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "tweed": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "polyester": {
+        "threshold": 0.05,
+        "calib_f1": 0.7639,
+        "support": 151,
+        "fitted": true
+      },
+      "nylon": {
+        "threshold": 0.12,
+        "calib_f1": 0.4737,
+        "support": 24,
+        "fitted": true
+      },
+      "spandex_elastane": {
+        "threshold": 0.18,
+        "calib_f1": 0.4211,
+        "support": 26,
+        "fitted": true
+      },
+      "acrylic": {
+        "threshold": 0.06,
+        "calib_f1": 0.5714,
+        "support": 26,
+        "fitted": true
+      },
+      "rayon_viscose": {
+        "threshold": 0.05,
+        "calib_f1": 0.4638,
+        "support": 38,
+        "fitted": true
+      },
+      "fleece": {
+        "threshold": 0.16,
+        "calib_f1": 0.9565,
+        "support": 12,
+        "fitted": true
+      },
+      "technical_synthetic": {
+        "threshold": 0.22,
+        "calib_f1": 0.6857,
+        "support": 36,
+        "fitted": true
+      },
+      "leather_smooth": {
+        "threshold": 0.11,
+        "calib_f1": 0.716,
+        "support": 46,
+        "fitted": true
+      },
+      "leather_suede": {
+        "threshold": 0.08,
+        "calib_f1": 0.4082,
+        "support": 22,
+        "fitted": true
+      },
+      "leather_patent": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "rubber": {
+        "threshold": 0.05,
+        "calib_f1": 0.9577,
+        "support": 37,
+        "fitted": true
+      },
+      "metal_hardware": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "blend_unspecified": {
+        "threshold": 0.05,
+        "calib_f1": 0.2056,
+        "support": 25,
+        "fitted": true
+      }
+    },
+    "r2_so400m_teacher": {
+      "cotton": {
+        "threshold": 0.13,
+        "calib_f1": 0.8917,
+        "support": 190,
+        "fitted": true
+      },
+      "linen": {
+        "threshold": 0.07,
+        "calib_f1": 0.4748,
+        "support": 51,
+        "fitted": true
+      },
+      "wool": {
+        "threshold": 0.08,
+        "calib_f1": 0.8372,
+        "support": 90,
+        "fitted": true
+      },
+      "cashmere": {
+        "threshold": 0.05,
+        "calib_f1": 0.7606,
+        "support": 39,
+        "fitted": true
+      },
+      "silk": {
+        "threshold": 0.05,
+        "calib_f1": 0.7451,
+        "support": 64,
+        "fitted": true
+      },
+      "denim": {
+        "threshold": 0.07,
+        "calib_f1": 0.7761,
+        "support": 38,
+        "fitted": true
+      },
+      "corduroy": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "tweed": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "polyester": {
+        "threshold": 0.15,
+        "calib_f1": 0.892,
+        "support": 151,
+        "fitted": true
+      },
+      "nylon": {
+        "threshold": 0.25,
+        "calib_f1": 0.7317,
+        "support": 24,
+        "fitted": true
+      },
+      "spandex_elastane": {
+        "threshold": 0.05,
+        "calib_f1": 0.2927,
+        "support": 26,
+        "fitted": true
+      },
+      "acrylic": {
+        "threshold": 0.05,
+        "calib_f1": 0.6809,
+        "support": 26,
+        "fitted": true
+      },
+      "rayon_viscose": {
+        "threshold": 0.05,
+        "calib_f1": 0.7912,
+        "support": 38,
+        "fitted": true
+      },
+      "fleece": {
+        "threshold": 0.07,
+        "calib_f1": 0.9091,
+        "support": 12,
+        "fitted": true
+      },
+      "technical_synthetic": {
+        "threshold": 0.28,
+        "calib_f1": 0.6364,
+        "support": 36,
+        "fitted": true
+      },
+      "leather_smooth": {
+        "threshold": 0.05,
+        "calib_f1": 0.8519,
+        "support": 46,
+        "fitted": true
+      },
+      "leather_suede": {
+        "threshold": 0.22,
+        "calib_f1": 0.5263,
+        "support": 22,
+        "fitted": true
+      },
+      "leather_patent": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "rubber": {
+        "threshold": 0.05,
+        "calib_f1": 1.0,
+        "support": 37,
+        "fitted": true
+      },
+      "metal_hardware": {
+        "threshold": 0.5,
+        "calib_f1": null,
+        "support": 0,
+        "fitted": false
+      },
+      "blend_unspecified": {
+        "threshold": 0.06,
+        "calib_f1": 0.0519,
+        "support": 25,
+        "fitted": true
+      }
+    }
+  }
+}
