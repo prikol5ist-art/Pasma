@@ -113,7 +113,7 @@ The cloud model saw 1024-pixel JPEGs; Small used a 320-pixel letterbox. This ill
 
 **These are Mac M2 measurements, not iPhone or Android benchmarks.** Batch one, 5 warm-ups, 30 timed model calls; decoding, preprocessing and model loading are excluded. CPU fallback is allowed. Android/Web execution, phone latency and peak activation RAM still require validation. Some FP16/CoreML/INT8 configurations exceed the original probability-parity tolerance; see [format-specific caveats](docs/DEPLOYMENT.md).
 
-This README intentionally contains selected, user-facing comparisons. The complete benchmark suite, per-class results and reproducibility artifacts are reserved for the Hugging Face release. **That Hub release has not been linked yet; a verified URL will be added when it is published.**
+This README contains selected, user-facing comparisons. The [Hugging Face release](https://huggingface.co/Prikol5ist/pasma) includes the full benchmark report, per-class metrics, confusion matrices, calibration, export-parity results and machine-readable aggregate evidence.
 
 ## What the outputs mean
 
