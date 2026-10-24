@@ -21,6 +21,12 @@ Built by **[Vestes Archive](https://vestesarchive.dev/)**, the digital atelier b
 
 Choose a photo of one garment and see the top three predictions. The demo processes your photo locally in your browser. The first run downloads the model (about 20–33 MiB) and runtime.
 
+## Watch the 25-second demo
+
+[![Watch Pasma: photo → local model → prediction](assets/pasma-demo.jpg)](https://github.com/prikol5ist-art/Pasma/raw/refs/heads/main/assets/pasma-demo.mp4)
+
+[Watch or download the video](https://github.com/prikol5ist-art/Pasma/raw/refs/heads/main/assets/pasma-demo.mp4). Animated interaction with actual ONNX predictions; includes compact size, native Mac M2 speed and accuracy comparisons. [Measurement context and media credits](assets/pasma-demo-notes.md).
+
 ## At a glance
 
 - **Small enough to bundle:** the Small and Nano FP16 ONNX graphs are about **10.32 MiB** each.
