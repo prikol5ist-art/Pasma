@@ -15,6 +15,12 @@ Built by **[Vestes Archive](https://vestesarchive.dev/)**, the digital atelier b
 
 **This is the v1.0 candidate release.** Weights and a runnable inference example are included. Suggestions should remain user-correctable; phone-specific validation and some export-parity work are still pending.
 
+## Try Pasma in your browser
+
+**[Try the live demo →](https://huggingface.co/spaces/Prikol5ist/pasma)** · [Download models on Hugging Face](https://huggingface.co/Prikol5ist/pasma)
+
+Choose a photo of one garment and see the top three predictions. The demo processes your photo locally in your browser. The first run downloads the model (about 20–33 MiB) and runtime.
+
 ## At a glance
 
 - **Small enough to bundle:** the Small and Nano FP16 ONNX graphs are about **10.32 MiB** each.
@@ -134,6 +140,10 @@ Use [labels_order.json](models/labels_order.json) as the index authority. Catego
 - Type labels are source/filename-derived; material targets include curated expected sets. No complete independent human-adjudication record or demographic/device fairness study is supplied.
 - Source images, private manifests and teacher checkpoints are not included. Full retraining/evaluation cannot be replicated from a bare checkout alone. The historical headline evaluation used EXIF correction off; the deployment example corrects EXIF.
 - Pasma v3 predicts type/category/material appearance. It does not provide segmentation, weather, style, dating or 3D fit predictions.
+
+## Support Pasma
+
+If Pasma is useful to you, [star this repository](https://github.com/prikol5ist-art/Pasma) and [like the model on Hugging Face](https://huggingface.co/Prikol5ist/pasma). Building something with it? Share your use case or device results in an [issue](https://github.com/prikol5ist-art/Pasma/issues).
 
 ## About Vestes Archive
 
