@@ -45,8 +45,47 @@ cd Pasma
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python examples/classify.py /path/to/garment.jpg
+python examples/classify.py examples/sample_shirt.jpg
 ```
+The included `examples/sample_shirt.jpg` is an AI-generated demonstration image, not evaluation data. Recorded output with Small-320 FP32 on ONNX Runtime CPU (scores rounded; minor runtime differences are possible):
+
+```json
+{
+  "top3": [
+    {
+      "type": "SHIRT",
+      "score": 0.9594
+    },
+    {
+      "type": "BLOUSE",
+      "score": 0.0085
+    },
+    {
+      "type": "HOODIE",
+      "score": 0.0026
+    }
+  ],
+  "category_for_selected_type": "TOP",
+  "coarse_marginal_argmax": "TOP",
+  "visual_material_suggestions": [
+    {
+      "label": "cotton",
+      "score": 0.9613
+    },
+    {
+      "label": "linen",
+      "score": 0.2345
+    },
+    {
+      "label": "polyester",
+      "score": 0.1712
+    }
+  ]
+}
+```
+
+Try your own garment by replacing the sample path. Material scores are independent visual suggestions, not fibre percentages or verified composition.
+
 
 The example uses Small-320 FP32 on CPU and returns the top three types, a category consistent with the selected type, and thresholded visual-material suggestions. To use a smaller-resolution graph:
 
